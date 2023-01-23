@@ -1,0 +1,19 @@
+name = "gnat_msp430_elf"
+version = "12.2.0"
+provides = ["gnat=12.2.0"]
+description = "The GNAT Ada compiler - MSP430 cross-compiler"
+maintainers = ["chouteau@adacore.com", "jeremy@synack.me"]
+maintainers-logins = ["Fabien-Chouteau", "JeremyGrosser"]
+licenses = "GPL-3.0-or-later AND GPL-3.0-or-later WITH GCC-exception-3.1"
+
+auto-gpr-with = false
+
+[configuration]
+disabled = true
+
+[environment]
+PATH.prepend = "${CRATE_ROOT}/bin"
+
+[origin."case(os)".linux."case(host-arch)".x86-64]
+url = "file:///archive/u8/synack/build/GNAT-FSF-builds/out_artifacts/gcc-12.2.0-msp430-elf-linux64.tar.bz2"
+hashes = ["sha256:90c7242a40ac50ca2682495ee1e28521976f7f5cd9ad035d2a591df3ecd819b9"]

@@ -1,0 +1,17 @@
+name = "gprbuild"
+version = "23.0.0"
+description = "The GPRBuild Ada/multilanguage build tool"
+maintainers = ["chouteau@adacore.com", "jeremy@synack.me"]
+maintainers-logins = ["Fabien-Chouteau", "JeremyGrosser"]
+
+auto-gpr-with = false
+
+[environment]
+PATH.prepend = "${CRATE_ROOT}/bin"
+
+[configuration]
+disabled = true
+
+[origin."case(os)".linux."case(host-arch)".x86-64]
+url = "https://pub.synack.me/artifacts/gprbuild-23.0.0-x86_64-linux.tar.bz2"
+hashes = ["sha256:efbfbb3102d9322a037e112fd964e4cc8822ae0d5bb8d1a99fa08a1f65ee6cd2"]
