@@ -15,5 +15,5 @@ disabled = true
 PATH.prepend = "${CRATE_ROOT}/bin"
 
 [origin."case(os)".linux."case(host-arch)".x86-64]
-url = "file:///archive/u8/synack/build/GNAT-FSF-builds/out_artifacts/gcc-12.2.0-msp430-elf-linux64.tar.bz2"
+url = "https://pub.synack.me/artifacts/gcc-12.2.0-msp430-elf-linux64.tar.bz2"
 hashes = ["sha256:90c7242a40ac50ca2682495ee1e28521976f7f5cd9ad035d2a591df3ecd819b9"]
