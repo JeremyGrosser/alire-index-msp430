@@ -14,4 +14,4 @@ disabled = true
 
 [origin."case(os)".linux."case(host-arch)".x86-64]
 url = "https://pub.synack.me/artifacts/gprbuild-23.0.0-x86_64-linux.tar.bz2"
-hashes = ["sha256:efbfbb3102d9322a037e112fd964e4cc8822ae0d5bb8d1a99fa08a1f65ee6cd2"]
+hashes = ["sha256:0d16c4c76a2f024b6a2ca6caa7ef215532a8afa54a74e720ddfc014c614a2e21"]
